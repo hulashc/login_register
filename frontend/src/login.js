@@ -37,6 +37,9 @@ function Login() {
   return (
     <div className="d-flex justify-content-center align-items-center bg-primary vh-100">
       <div className="bg-white p-4 rounded shadow-lg" style={{ width: '350px' }}>
+        {/* TrueTrace Heading */}
+        <h1 className="text-center mb-4 text-primary">TrueTrace</h1>
+        {/* Original Login Heading */}
         <h2 className="text-center mb-4">Log in</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
